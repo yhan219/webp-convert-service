@@ -7,7 +7,7 @@
 ## Docker
 
 ### 构建
- 以下两种服务人选其一
+ 以下两种服务任选其一
 #### 从 docker hub pull
 > docker pull yhan219/webp-service:lastest
 
