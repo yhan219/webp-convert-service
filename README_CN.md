@@ -9,7 +9,7 @@
 ### 构建
  以下两种服务任选其一
 #### 从 docker hub pull
-> docker pull yhan219/webp-convert-service:lastest
+> docker pull yhan219/webp-convert-service
 
 #### 通过dockerfile构建
 > docker build -t yhan219/webp-convert-service:1.0 .
