@@ -11,7 +11,7 @@ Based on `docker` with `golang` that convert images to webp
 ### build
  There are two ways to construct it, either way.
 #### pull from docker hub
-> docker pull yhan219/webp-conert-service:lastest
+> docker pull yhan219/webp-convert-service:lastest
 
 #### build with dockerfile
 > docker build -t yhan219/webp-convert-service:1.0 .
