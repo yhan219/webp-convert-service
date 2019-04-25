@@ -9,13 +9,13 @@
 ### 构建
  以下两种服务任选其一
 #### 从 docker hub pull
-> docker pull yhan219/webp-service:lastest
+> docker pull yhan219/webp-convert-service:lastest
 
 #### 通过dockerfile构建
-> docker build -t yhan219/webp-service:1.0 .
+> docker build -t yhan219/webp-convert-service:1.0 .
 
 ### 运行
-> docker run -d --name webp-service -p 80:80 yhan219/webp-service:1.0
+> docker run -d --name webp-service -p 80:80 yhan219/webp-convert-service:1.0
 
 
 ## 使用
@@ -38,9 +38,3 @@ webp转化地址:
 
 以上链接会生成如下命令行:
 > cwebp -q 1 -nostrong -z 5 -o - -- -
-
-
-
-
-
-
