@@ -17,7 +17,7 @@ Based on `docker` with `golang` that convert images to webp
 > docker build -t yhan219/webp-convert-service:1.0 .
 
 ### run
-> docker run -d --name webp-service -p 80:80 yhan219/webp-conevert-service:1.0
+> docker run -d --name webp-service -p 80:80 yhan219/webp-convert-service:1.0
 
 
 ## Usage
